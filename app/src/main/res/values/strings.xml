@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">LearnUP</string>
+    <string name="plan_smarter_n_not_harder_with_learnup">Plan smarter\n Not harder with</string>
+    <string name="get_start">Get Start</string>
+    <string name="the_study_planner_app">The study planner App</string>
+    <string name="logo">Logo</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_todo_list">To-Do List</string>
+    <string name="menu_all_activities">All activities</string>
+    <string name="hello">This is all activities</string>
+    <string name="tools">Tools</string>
+    <string name="voice_notes">Voice notes</string>
+    <string name="note_capture">Note capture</string>
+    <string name="edu_map">Edu map</string>
+    <string name="navigation_item1_title">Week</string>
+    <string name="navigation_item2_title">Month</string>
+    <string name="select_category_prompt">Select category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_buttom_navigation">ButtomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_image_view">ImageView</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">"AIzaSyBtRv8imq_7v14UjTVxZF51bqbUYld5WKg"</string>
+    <string name="hide_over_dues">Hide over dues</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

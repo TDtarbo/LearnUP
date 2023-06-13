@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.AddTask">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp">
+
+            <TextView
+                android:id="@+id/category_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Task category"
+                android:layout_marginHorizontal="5dp"
+                android:textColor="@color/blue"
+                android:textSize="16sp"/>
+
+            <Spinner
+                android:id="@+id/category_list"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/spinner_validate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:text="*Category is required"
+                android:visibility="gone"
+                android:textColor="@color/red"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:id="@+id/title_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="5dp"
+                android:text="Title &amp; description"
+                android:textColor="@color/blue"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Add title"/>
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Description (Optional)"/>
+
+
+            <TextView
+                android:id="@+id/date_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Date"
+                android:layout_marginHorizontal="5dp"
+                android:textColor="@color/blue"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:focusable="false"
+                android:hint="Select date" />
+
+            <TextView
+                android:id="@+id/time_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Time"
+                android:layout_marginHorizontal="5dp"
+                android:textColor="@color/blue"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:focusable="false"
+                android:hint="Select time"
+                android:onClick="showTimePickerDialog"/>
+
+            <TextView
+                android:id="@+id/location_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Location"
+                android:layout_marginHorizontal="5dp"
+                android:textColor="@color/blue"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="(Optional)"/>
+
+            <TextView
+                android:id="@+id/link_lb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Web link"
+                android:layout_marginHorizontal="5dp"
+                android:textColor="@color/blue"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="www.example.com (Optional)"/>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginVertical="50dp">
+
+                <Button
+                    android:id="@+id/cancelBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/blue"
+                    android:onClick="cancelBtn"
+                    android:padding="15dp"/>
+
+                <Button
+                    android:id="@+id/addBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:padding="15dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
